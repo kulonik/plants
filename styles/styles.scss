@@ -1,3 +1,5 @@
+@import "fonts";
+
 $lightgreen-color: #edf2ec;
 $orange-color: #e06733;
 $green-color: #499a18;
@@ -19,6 +21,7 @@ body {
   max-width: 1440px;
   margin: 0 auto;
   background: $lightgreen-color;
+  font-family: "Inika";
 }
 
 .wrapper {
@@ -31,4 +34,10 @@ body {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.header__logo {
+  a {
+    text-decoration: none;
+  }
 }
