@@ -1,3 +1,8 @@
+$lightgreen-color: #edf2ec;
+$orange-color: #e06733;
+$green-color: #499a18;
+$grey-color: #717171;
+
 html {
   box-sizing: border-box;
 }
@@ -13,7 +18,7 @@ body {
   display: block;
   max-width: 1440px;
   margin: 0 auto;
-  background: #edf2ec;
+  background: $lightgreen-color;
 }
 
 .wrapper {
@@ -27,5 +32,3 @@ body {
   flex-direction: row;
   justify-content: space-between;
 }
-
-/*# sourceMappingURL=styles.css.map */
