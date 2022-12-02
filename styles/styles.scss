@@ -1,6 +1,6 @@
 @import "fonts";
 
-$lightgreen-color: #edf2ec;
+$lightgreen-color: rgb(237, 242, 236);
 $orange-color: #e06733;
 $green-color: #499a18;
 $grey-color: #717171;
@@ -30,6 +30,7 @@ body {
 }
 
 .header__wrapper {
+  margin-top: 50px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -39,5 +40,38 @@ body {
 .header__logo {
   a {
     text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  p {
+    color: #000;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+  }
+}
+
+nav {
+  ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    li {
+      padding-right: 44px;
+      &:last-child {
+        padding-right: 0;
+      }
+    }
+    a {
+      text-decoration: none;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 50px;
+      color: #010201;
+    }
   }
 }

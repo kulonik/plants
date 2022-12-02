@@ -1,3 +1,31 @@
+/* inter-regular - latin */
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("./fonts/inter-v12-latin-regular.woff") format("woff2"), url("./fonts/inter-v12-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* inter-700 - latin */
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("./fonts/inter-v12-latin-700.woff2") format("woff2"), url("./fonts/inter-v12-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* inika-regular - latin */
+@font-face {
+  font-family: "Inika";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("./fonts/inika-v21-latin-regular.woff2") format("woff2"), url("./fonts/inika-v21-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* inika-700 - latin */
+@font-face {
+  font-family: "Inika";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("./fonts/inika-v21-latin-700.woff2") format("woff2"), url("./fonts/inika-v21-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
 html {
   box-sizing: border-box;
 }
@@ -13,7 +41,8 @@ body {
   display: block;
   max-width: 1440px;
   margin: 0 auto;
-  background: #edf2ec;
+  background: rgb(237, 242, 236);
+  font-family: "Inika";
 }
 
 .wrapper {
@@ -22,10 +51,46 @@ body {
 }
 
 .header__wrapper {
+  margin-top: 50px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.header__logo a {
+  text-decoration: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.header__logo p {
+  color: #000;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+nav ul li {
+  padding-right: 44px;
+}
+nav ul li:last-child {
+  padding-right: 0;
+}
+nav ul a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 50px;
+  color: #010201;
 }
 
 /*# sourceMappingURL=styles.css.map */
