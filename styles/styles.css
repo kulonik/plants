@@ -183,4 +183,41 @@ nav ul a:hover, nav ul a:focus, nav ul a:active {
   margin-bottom: 48px;
 }
 
+/* welcome section styles end */
+/* section about styles start */
+.about {
+  background: #fff;
+  margin: 0;
+  padding: 82px 0 105px;
+}
+
+.about__wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+.about-desc {
+  margin-right: 153px;
+}
+.about-desc h2 {
+  width: 463px;
+  color: #499a18;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  margin-top: 68px;
+  margin-bottom: 40px;
+}
+.about-desc p {
+  width: 605px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #636060;
+}
+
 /*# sourceMappingURL=styles.css.map */
