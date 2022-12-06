@@ -1,9 +1,17 @@
 @import "fonts";
 @import "buttons";
+
 $lightgreen-color: rgb(237, 242, 236);
 $orange-color: #e06733;
 $green-color: #499a18;
 $grey-color: #717171;
+
+@mixin my_title2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+}
 
 html {
   box-sizing: border-box;
@@ -176,12 +184,9 @@ nav {
   h2 {
     width: 463px;
     color: $green-color;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 52px;
     margin-top: 68px;
     margin-bottom: 40px;
+    @include my_title2;
   }
 
   p {
@@ -194,3 +199,84 @@ nav {
     color: #636060;
   }
 }
+
+/* section about styles end */
+
+/* section service styles start */
+.service__wrapper {
+  .service__header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    h2 {
+      margin-top: 35px;
+      margin-right: 140px;
+      width: 306px;
+      @include my_title2;
+      color: $green-color;
+    }
+
+    .button {
+      margin-top: 64px;
+      margin-right: 38px;
+      margin-bottom: 112px;
+      width: 161px;
+      height: 50px;
+      border-radius: 10px;
+      border: 1px solid $orange-color;
+      color: $orange-color;
+      text-transform: none;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 26px;
+
+      &:hover,
+      &:active,
+      &:focus {
+        color: #fff;
+      }
+    }
+  }
+}
+
+.service__cards {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 119px;
+}
+
+.service__card {
+  height: 450px;
+  margin-bottom: 55px;
+  border: 1px solid #e3e1d5;
+  border-radius: 22px;
+
+  h4 {
+    margin: 3px auto;
+    text-align: center;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: $orange-color;
+  }
+
+  p {
+    text-align: center;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: $grey-color;
+  }
+}
+
+/* service section styles end */
+
+/* prices section styles start */

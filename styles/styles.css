@@ -203,12 +203,12 @@ nav ul a:hover, nav ul a:focus, nav ul a:active {
 .about-desc h2 {
   width: 463px;
   color: #499a18;
+  margin-top: 68px;
+  margin-bottom: 40px;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
   line-height: 52px;
-  margin-top: 68px;
-  margin-bottom: 40px;
 }
 .about-desc p {
   width: 605px;
@@ -219,5 +219,78 @@ nav ul a:hover, nav ul a:focus, nav ul a:active {
   line-height: 30px;
   color: #636060;
 }
+
+/* section about styles end */
+/* section service styles start */
+.service__wrapper .service__header {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.service__wrapper .service__header h2 {
+  margin-top: 35px;
+  margin-right: 140px;
+  width: 306px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  color: #499a18;
+}
+.service__wrapper .service__header .button {
+  margin-top: 64px;
+  margin-right: 38px;
+  margin-bottom: 112px;
+  width: 161px;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid #e06733;
+  color: #e06733;
+  text-transform: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+}
+.service__wrapper .service__header .button:hover, .service__wrapper .service__header .button:active, .service__wrapper .service__header .button:focus {
+  color: #fff;
+}
+
+.service__cards {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 119px;
+}
+
+.service__card {
+  height: 450px;
+  margin-bottom: 55px;
+  border: 1px solid #e3e1d5;
+  border-radius: 22px;
+}
+.service__card h4 {
+  margin: 3px auto;
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #e06733;
+}
+.service__card p {
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #717171;
+}
+
+/* service section styles end */
+/* prices section styles start */
 
 /*# sourceMappingURL=styles.css.map */
