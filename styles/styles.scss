@@ -1,7 +1,7 @@
 @import "fonts";
 @import "buttons";
 
-$lightgreen-color: rgb(237, 242, 236);
+$lightgreen-color: #edf2ec;
 $orange-color: #e06733;
 $green-color: #499a18;
 $grey-color: #717171;
@@ -15,6 +15,7 @@ $grey-color: #717171;
 
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *,
@@ -246,7 +247,7 @@ nav {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
-  margin-bottom: 119px;
+  margin-bottom: 64px;
 }
 
 .service__card {
@@ -280,3 +281,91 @@ nav {
 /* service section styles end */
 
 /* prices section styles start */
+.prices {
+  background: #fff;
+}
+
+.prices__wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+
+.price__left {
+  width: 332px;
+}
+
+.title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  columns: #000;
+  margin-bottom: 60px;
+}
+
+.prices-choice {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 332px;
+  height: 282px;
+
+  border-radius: 20px;
+  border: 0.5px solid $lightgreen-color;
+  padding-top: 34px;
+  padding-bottom: 34px;
+}
+
+.prices-item {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 250px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #edf2ec;
+  border-radius: 20px;
+
+  p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+  }
+}
+.circle {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  background: #d9d9d9;
+  border-radius: 10px;
+}
+
+.arrow-left {
+  position: absolute;
+  top: 8px;
+  left: 4px;
+  transform: rotate(45deg);
+  width: 5px;
+  height: 1.5px;
+  background: $grey-color;
+}
+
+.arrow-right {
+  position: absolute;
+  top: 8px;
+  left: 6px;
+  transform: rotate(135deg);
+  width: 5px;
+  height: 1.5px;
+  background: $grey-color;
+}
