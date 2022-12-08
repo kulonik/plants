@@ -381,4 +381,47 @@ nav ul a:hover, nav ul a:focus, nav ul a:active {
   background: #717171;
 }
 
+.prices__right {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  width: 452px;
+}
+.prices__right h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: right;
+  margin-top: -5px;
+  margin-bottom: 41px;
+}
+.prices__right .button {
+  align-self: flex-end;
+  width: 161px;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid #e06733;
+  color: #e06733;
+  text-transform: none;
+  font-family: "Inika";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  background: #fff;
+  margin-bottom: 7px;
+}
+.prices__right .button:hover, .prices__right .button:active, .prices__right .button:focus {
+  color: #fff;
+  background: #e06733;
+}
+.prices__right img {
+  width: 283.96px;
+  height: 318.41px;
+  align-self: flex-end;
+  margin-bottom: 11.59px;
+}
+
 /*# sourceMappingURL=styles.css.map */

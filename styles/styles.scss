@@ -369,3 +369,52 @@ nav {
   height: 1.5px;
   background: $grey-color;
 }
+
+.prices__right {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  width: 452px;
+
+  h2 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: right;
+    margin-top: -5px;
+    margin-bottom: 41px;
+  }
+
+  .button {
+    align-self: flex-end;
+    width: 161px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid $orange-color;
+    color: $orange-color;
+    text-transform: none;
+    font-family: "Inika";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    background: #fff;
+    margin-bottom: 7px;
+
+    &:hover,
+    &:active,
+    &:focus {
+      color: #fff;
+      background: $orange-color;
+    }
+  }
+
+  img {
+    width: 283.96px;
+    height: 318.41px;
+    align-self: flex-end;
+    margin-bottom: 11.59px;
+  }
+}
