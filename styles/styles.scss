@@ -492,3 +492,56 @@ nav {
 /* contacts section styles end */
 
 /* footer styles start */
+.footer {
+  background: #fff;
+}
+
+.footer__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer__copyright {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 182px;
+  margin: 41px 0;
+}
+
+.copyright-item {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+  color: #000;
+  margin-right: 20px;
+}
+.copyright-item:last-child {
+  margin-right: 0;
+}
+
+.footer__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+  color: #000;
+  margin-top: 41px;
+}
+
+.footer__socials {
+  .list {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 188px;
+    margin-top: 50px;
+  }
+}
