@@ -13,6 +13,24 @@ $grey-color: #717171;
   line-height: 52px;
 }
 
+@mixin circle {
+  width: 16px;
+  height: 16px;
+  border-radius: 10px;
+}
+
+@mixin arrow-left {
+  transform: rotate(45deg);
+  width: 5px;
+  height: 1.5px;
+}
+
+@mixin arrow-right {
+  transform: rotate(135deg);
+  width: 5px;
+  height: 1.5px;
+}
+
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
@@ -344,19 +362,15 @@ nav {
 }
 .circle {
   position: relative;
-  width: 16px;
-  height: 16px;
+  @include circle;
   background: #d9d9d9;
-  border-radius: 10px;
 }
 
 .arrow-left {
   position: absolute;
   top: 8px;
   left: 4px;
-  transform: rotate(45deg);
-  width: 5px;
-  height: 1.5px;
+  @include arrow-left;
   background: $grey-color;
 }
 
@@ -364,9 +378,7 @@ nav {
   position: absolute;
   top: 8px;
   left: 6px;
-  transform: rotate(135deg);
-  width: 5px;
-  height: 1.5px;
+  @include arrow-right;
   background: $grey-color;
 }
 
@@ -418,3 +430,65 @@ nav {
     margin-bottom: 11.59px;
   }
 }
+
+/* prices section styles end */
+
+/* contacts section styles start */
+.contacts__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+  img {
+    margin-top: 45px;
+  }
+
+  h2 {
+    font-family: "Inika";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    margin-top: 60px;
+    margin-left: 113px;
+  }
+}
+
+.contacts-city {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+
+  width: 450px;
+  height: 50px;
+  background: #d6e7d2;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px;
+  margin-top: 148px;
+  margin-left: 64px;
+
+  p {
+    display: inline-block;
+    margin: 5px auto 5px 20px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    color: $grey-color;
+  }
+}
+
+.grey {
+  background: #aea1a1;
+  margin: 17px 35px 17px auto;
+}
+
+.light {
+  background: #fff;
+}
+
+/* contacts section styles end */
+
+/* footer styles start */

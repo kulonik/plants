@@ -357,8 +357,8 @@ nav ul a:hover, nav ul a:focus, nav ul a:active {
   position: relative;
   width: 16px;
   height: 16px;
-  background: #d9d9d9;
   border-radius: 10px;
+  background: #d9d9d9;
 }
 
 .arrow-left {
@@ -423,5 +423,61 @@ nav ul a:hover, nav ul a:focus, nav ul a:active {
   align-self: flex-end;
   margin-bottom: 11.59px;
 }
+
+/* prices section styles end */
+/* contacts section styles start */
+.contacts__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.contacts__wrapper img {
+  margin-top: 45px;
+}
+.contacts__wrapper h2 {
+  font-family: "Inika";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  margin-top: 60px;
+  margin-left: 113px;
+}
+
+.contacts-city {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  width: 450px;
+  height: 50px;
+  background: #d6e7d2;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px;
+  margin-top: 148px;
+  margin-left: 64px;
+}
+.contacts-city p {
+  display: inline-block;
+  margin: 5px auto 5px 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  letter-spacing: 0.05em;
+  color: #717171;
+}
+
+.grey {
+  background: #aea1a1;
+  margin: 17px 35px 17px auto;
+}
+
+.light {
+  background: #fff;
+}
+
+/* contacts section styles end */
+/* footer styles start */
 
 /*# sourceMappingURL=styles.css.map */
