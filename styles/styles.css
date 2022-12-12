@@ -55,6 +55,10 @@
   border-radius: 10px;
 }
 
+.button:hover {
+  cursor: pointer;
+}
+
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
@@ -530,6 +534,14 @@ nav ul a:hover, nav ul a:focus, nav ul a:active {
   justify-content: space-between;
   width: 188px;
   margin-top: 50px;
+}
+
+svg {
+  fill: #000;
+}
+
+svg:hover {
+  fill: #e06733;
 }
 
 /*# sourceMappingURL=styles.css.map */

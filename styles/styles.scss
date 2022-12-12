@@ -545,3 +545,10 @@ nav {
     margin-top: 50px;
   }
 }
+
+svg {
+  fill: #000;
+}
+svg:hover {
+  fill: $orange-color;
+}
