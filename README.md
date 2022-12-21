@@ -1,3 +1,3 @@
 # plants
 
-https://kulonik.github.io
+https://kulonik.github.io/plants
