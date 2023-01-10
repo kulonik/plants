@@ -94,13 +94,16 @@ body {
 
 /* header styles start */
 .header__wrapper {
-  margin: 50px auto;
+  margin: 42px auto;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
 }
 
+.header__logo {
+  margin-top: 10px;
+}
 .header__logo a {
   text-decoration: none;
   display: flex;
@@ -121,20 +124,16 @@ body {
   margin-top: 2px;
 }
 
+nav {
+  width: 452px;
+}
 nav ul {
   list-style-type: none;
-  width: 465px;
   margin-top: 0;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
-  /*  li {
-    margin-right: 44px;
-    &:last-child {
-      margin-right: 0;
-    }
-  } */
 }
 nav ul a {
   text-decoration: none;
@@ -160,13 +159,14 @@ nav ul a:hover, nav ul a:focus, nav ul a:active {
   width: 458.8px;
   height: 417.36px;
   position: relative;
-  top: -20px;
+  top: 40px;
   margin-right: 214.34px;
 }
 
 .welcome__desc {
+  margin-top: 45px;
   max-width: 558.87px;
-  margin-bottom: 126px;
+  margin-bottom: 94px;
 }
 .welcome__desc h1 {
   font-family: "Inter";
@@ -193,7 +193,7 @@ nav ul a:hover, nav ul a:focus, nav ul a:active {
 .about {
   background: #fff;
   margin: 0;
-  padding: 82px 0 105px;
+  padding: 93px 0 94px;
 }
 
 .about__wrapper {
@@ -233,7 +233,7 @@ nav ul a:hover, nav ul a:focus, nav ul a:active {
   flex-direction: row;
 }
 .service__wrapper .service__header h2 {
-  margin-top: 35px;
+  margin-top: 40px;
   margin-right: 140px;
   width: 306px;
   font-style: normal;
@@ -243,12 +243,12 @@ nav ul a:hover, nav ul a:focus, nav ul a:active {
   color: #499a18;
 }
 .service__wrapper .service__header .button {
-  margin-top: 64px;
+  margin-top: 69px;
   margin-right: 38px;
-  margin-bottom: 112px;
+  margin-bottom: 105px;
   width: 161px;
   height: 50px;
-  border-radius: 10px;
+  border-radius: 5px;
   border: 1px solid #e06733;
   color: #e06733;
   text-transform: none;
@@ -398,7 +398,7 @@ nav ul a:hover, nav ul a:focus, nav ul a:active {
   font-size: 40px;
   line-height: 50px;
   text-align: right;
-  margin-top: -5px;
+  margin-top: 0px;
   margin-bottom: 41px;
 }
 .prices__right .button {
@@ -415,17 +415,17 @@ nav ul a:hover, nav ul a:focus, nav ul a:active {
   font-size: 20px;
   line-height: 26px;
   background: #fff;
-  margin-bottom: 7px;
+  margin-bottom: 39px;
 }
 .prices__right .button:hover, .prices__right .button:active, .prices__right .button:focus {
   color: #fff;
   background: #e06733;
 }
 .prices__right img {
-  width: 283.96px;
-  height: 318.41px;
+  width: 152px;
+  height: 174.99px;
   align-self: flex-end;
-  margin-bottom: 11.59px;
+  margin-bottom: 115px;
 }
 
 /* prices section styles end */
@@ -436,7 +436,7 @@ nav ul a:hover, nav ul a:focus, nav ul a:active {
   flex-direction: row;
 }
 .contacts__wrapper img {
-  margin-top: 45px;
+  margin-top: 53px;
 }
 .contacts__wrapper h2 {
   font-family: "Inika";

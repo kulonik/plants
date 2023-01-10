@@ -66,7 +66,7 @@ body {
 
 /* header styles start */
 .header__wrapper {
-  margin: 50px auto;
+  margin: 42px auto;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -74,6 +74,7 @@ body {
 }
 
 .header__logo {
+  margin-top: 10px;
   a {
     text-decoration: none;
     display: flex;
@@ -98,21 +99,16 @@ body {
 }
 
 nav {
+  width: 452px;
+
   ul {
     list-style-type: none;
-    width: 465px;
     margin-top: 0;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
 
-    /*  li {
-      margin-right: 44px;
-      &:last-child {
-        margin-right: 0;
-      }
-    } */
     a {
       text-decoration: none;
       font-style: normal;
@@ -142,14 +138,15 @@ nav {
     width: 458.8px;
     height: 417.36px;
     position: relative;
-    top: -20px;
+    top: 40px;
     margin-right: 214.34px;
   }
 }
 
 .welcome__desc {
+  margin-top: 45px;
   max-width: 558.87px;
-  margin-bottom: 126px;
+  margin-bottom: 94px;
 
   h1 {
     font-family: "Inter";
@@ -188,7 +185,7 @@ nav {
 .about {
   background: #fff;
   margin: 0;
-  padding: 82px 0 105px;
+  padding: 93px 0 94px;
 }
 
 .about__wrapper {
@@ -229,7 +226,7 @@ nav {
     flex-direction: row;
 
     h2 {
-      margin-top: 35px;
+      margin-top: 40px;
       margin-right: 140px;
       width: 306px;
       @include my_title2;
@@ -237,12 +234,12 @@ nav {
     }
 
     .button {
-      margin-top: 64px;
+      margin-top: 69px;
       margin-right: 38px;
-      margin-bottom: 112px;
+      margin-bottom: 105px;
       width: 161px;
       height: 50px;
-      border-radius: 10px;
+      border-radius: 5px;
       border: 1px solid $orange-color;
       color: $orange-color;
       text-transform: none;
@@ -395,7 +392,7 @@ nav {
     font-size: 40px;
     line-height: 50px;
     text-align: right;
-    margin-top: -5px;
+    margin-top: 0px;
     margin-bottom: 41px;
   }
 
@@ -413,7 +410,7 @@ nav {
     font-size: 20px;
     line-height: 26px;
     background: #fff;
-    margin-bottom: 7px;
+    margin-bottom: 39px;
 
     &:hover,
     &:active,
@@ -424,10 +421,10 @@ nav {
   }
 
   img {
-    width: 283.96px;
-    height: 318.41px;
+    width: 152px;
+    height: 174.99px;
     align-self: flex-end;
-    margin-bottom: 11.59px;
+    margin-bottom: 115px;
   }
 }
 
@@ -440,7 +437,7 @@ nav {
   flex-direction: row;
 
   img {
-    margin-top: 45px;
+    margin-top: 53px;
   }
 
   h2 {
